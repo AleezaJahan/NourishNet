@@ -1,0 +1,14 @@
+<!-- form_formatting.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Form</title>
+</head>
+<body>
+    <form method="post">
+        {% csrf_token %}
+        {{ form }}
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+</body>
+</html>
